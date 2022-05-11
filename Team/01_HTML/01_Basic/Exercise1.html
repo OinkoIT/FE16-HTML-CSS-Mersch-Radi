@@ -5,12 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise1</title>
+    <style>
+
+        .tableData {
+
+            width: 600px;
+
+        }
+
+        .image {
+
+            width: 200px;
+
+        }
+
+        .video {
+
+            width: 200px;
+
+
+        }
+
+        .audio {
+
+
+            width: 200px;
+
+        }
+
+    </style>
 
 </head>
 
 <!-- Create a table containing your three favorite images, songs and videos on the internet (that are safe for work ;) ). Use best practices when using images, audio and video tags. -->
 
 <body>
+
+    <table class="tableData" border="1">
+        <tr>
+            <th>Images</th>
+            <th>Songs</th>
+            <th>Videos</th>
+        </tr>
+       <tr >
+            <td><img class="image" src="https://images.unsplash.com/photo-1554692901-e16f2046918a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="Image1" ></td>
+            <td><audio class="audio" controls src="media/bensound-ukulele.mp3" controls>Abba1</audio></td>
+            <td><iframe class="video" src="https://player.vimeo.com/video/442255041" frameborder="0"></iframe></td>
+       </tr>
+        <tr>
+            <td><img class="image" src="https://images.unsplash.com/photo-1542397284385-6010376c5337?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="Image2"></td>
+            <td><audio class="audio" controls src="media/bensound-cute.mp3"></audio></td> 
+            <td><video class="video" controls muted src="media/pexels-ron-lach-7802455.mp4">Your Browser does not support the video!</video></td>
+        </tr>
+       <tr >
+            <td><img class="image" src="https://images.unsplash.com/photo-1581873372796-635b67ca2008?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Image3"></td> 
+            <td><audio class="audio" controls src="media/bensound-buddy.mp3"></audio></td>
+            <td><video class="video" controls muted src="media/Pexels Videos 2099332.mp4">Your Browser does not support the video!</video></td>
+       </tr> 
+   </table>
     
 </body>
 </html>

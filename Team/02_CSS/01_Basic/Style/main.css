@@ -1,0 +1,33 @@
+.left{
+
+}
+.right{
+
+}
+#first{
+
+}
+
+#second div p{
+    display: none;
+}
+#third > p{
+    display: none;}
+    
+
+#fourth{
+
+}
+#fifth{
+
+}
+#sixth{
+
+}
+h1{display: none;}
+div{
+    margin: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(20, 21, 20);}
+    span{display: none;}
